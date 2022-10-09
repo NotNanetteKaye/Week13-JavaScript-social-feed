@@ -15,7 +15,8 @@ const AddEntryForm = (props) => {
             name: name,
             post: post
         };
-        console.log(newEntry)
+        console.log(newEntry);
+        props.addNewEntryProperty(newEntry)
     }
 
 
