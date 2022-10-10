@@ -13,7 +13,7 @@ function App() {
       Post: "I love playing guitar. Does anyone want to play with me?",
     },
     {
-      Name: "Lagrange",
+      Name: "Lnagrange",
       Post: "I love playing guitar. Does anyone want to play with me?",
     },
   ]);

@@ -5,6 +5,12 @@ const DisplayEntries = (props) => {
         <ul>
             {props.parentEntries.map(element => <li><EntryPresenter postObject={element}/></li>)}
         </ul>
+    )
+}
+ 
+export default DisplayEntries;
+
+
         // <table>
         //     <thead>
         //         <tr>
@@ -24,7 +30,3 @@ const DisplayEntries = (props) => {
         //         })}
         //     </tbody>
         // </table>
-    )
-}
- 
-export default DisplayEntries;
