@@ -5,16 +5,16 @@ import AddEntryForm from "./components/AddEntry/AddEntryForm";
 function App() {
   const [entries, setEntries] = useState([
     {
-      Name: "David Lagrange",
-      Post: "I love playing guitar. Does anyone want to play with me?",
+      name: "David Lagrange",
+      post: "I love playing guitar. Does anyone want to play with me?",
     },
     {
-      Name: "Nanette",
-      Post: "I love playing guitar. Does anyone want to play with me?",
+      name: "Nanette",
+      post: "I love playing guitar. Does anyone want to play with me?",
     },
     {
-      Name: "Lnagrange",
-      Post: "I love playing guitar. Does anyone want to play with me?",
+      name: "Lnagrange",
+      post: "I love playing guitar. Does anyone want to play with me?",
     },
   ]);
 
