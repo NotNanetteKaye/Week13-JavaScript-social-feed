@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import DisplayEntries from "./components/DisplayEntries/DisplayEntries";
+import EntriesMapper from "./components/EntriesMapper/EntriesMapper";
 import AddEntryForm from "./components/AddEntry/AddEntryForm";
+
 
 function App() {
   const [entries, setEntries] = useState([
@@ -26,7 +27,7 @@ function App() {
   return (
     <div>
       <AddEntryForm addNewEntryProperty={addNewEntry} />
-      <DisplayEntries parentEntries={entries} />
+      <EntriesMapper userEntries={entries} />
     </div>
   );
 }

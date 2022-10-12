@@ -13,7 +13,7 @@ const AddEntryForm = (props) => {
         event.preventDefault();
         let newEntry = {
             name: name,
-            post: post
+            post: post,
         };
         console.log(newEntry);
         props.addNewEntryProperty(newEntry)
