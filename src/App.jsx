@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EntriesMapper from "./components/EntriesMapper/EntriesMapper";
 import AddEntryForm from "./components/AddEntry/AddEntryForm";
+import CustomButton from "./components/CustomButton/CustomButton";
 
 
 function App() {
@@ -27,7 +28,11 @@ function App() {
   return (
     <div>
       <AddEntryForm addNewEntryProperty={addNewEntry} />
+      <br/>
       <EntriesMapper userEntries={entries} />
+      <CustomButton message="Like!"/>
+      <CustomButton message="Dislike!"/>
+      <br/>
     </div>
   );
 }
