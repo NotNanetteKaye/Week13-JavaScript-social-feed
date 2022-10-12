@@ -1,0 +1,9 @@
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: pink;
+    padding: 1cm;
+    margin: 1cm;
+}
+
