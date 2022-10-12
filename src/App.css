@@ -1,9 +1,10 @@
 .border-box {
     border: 1px;
     border-style: solid;
-    border-color: aqua;
-    background-color: pink;
+    border-color: black;
+    background-color: cornsilk;
     padding: 1cm;
     margin: 1cm;
 }
+
 
