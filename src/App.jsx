@@ -7,7 +7,7 @@ function App() {
   const [entries, setEntries] = useState([
     {
       name: "Nanette Kaye Dolera",
-      post: "I love playing guitar. Does anyone want to play with me?",
+      post: "Hi everyone! What is your favorite Bad Bunny song?",
     }
   ]);
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="container-fluid">
       <h3 style={{margin: '1em'}}>Social<small className="text-muted">Feed</small></h3>
-      <div className="row" style={{background: 'grey'}}>
+      <div className="row" style={{background: 'rgb(84, 173, 208)'}}>
         <div className= 'col-md-2'></div>
         <div className= 'col-md-7'>
           <div className="border-box"><AddEntryForm addNewEntryProperty={addNewEntry} /></div>

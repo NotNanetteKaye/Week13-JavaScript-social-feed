@@ -4,11 +4,20 @@ button {
 
 .active {
     background-color: green;
+    display: inline;
+    position: relative;
+    float: right;
 }
 .inactive {
-    color: gray;
+    background-color:  rgb(18, 90, 119);
+    display: inline;
+    position: relative;
+    float: right;
 }
 
 .dislike {
-    background-color: red
+    background-color: red;
+    display: inline;
+    position: relative;
+    float: right;
 }

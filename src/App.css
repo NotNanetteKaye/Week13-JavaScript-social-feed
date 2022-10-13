@@ -1,10 +1,18 @@
 .border-box {
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background-color: cornsilk;
+    border-radius: 25px;
+    background-color: rgb(177, 222, 240);
     padding: 1cm;
     margin: 1cm;
+    box-shadow: -1em 1em white;
 }
 
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 50px;
+    border-bottom: 1px solid
+}
 

@@ -7,8 +7,8 @@ const EntryPresenter = ({postObject}) => {
         <div>
             <h1>{postObject.name}</h1>
             <p>{postObject.post}</p>
+            <CustomDislikeButton message="Dislike :("/>
             <CustomLikeButton message="Like!"/>
-            <CustomDislikeButton message="Dislike!"/>
         </div>
      );
 } 
